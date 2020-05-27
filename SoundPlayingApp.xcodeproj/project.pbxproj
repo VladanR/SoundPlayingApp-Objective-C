@@ -17,6 +17,25 @@
 		BC71FDF8247ECE8D00AC8B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FDF7247ECE8D00AC8B9B /* main.m */; };
 		BC71FE02247ECE8D00AC8B9B /* SoundPlayingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FE01247ECE8D00AC8B9B /* SoundPlayingAppTests.m */; };
 		BC71FE0D247ECE8D00AC8B9B /* SoundPlayingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FE0C247ECE8D00AC8B9B /* SoundPlayingAppUITests.m */; };
+		BC71FE20247ECF5F00AC8B9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC71FE1F247ECF5F00AC8B9B /* AudioToolbox.framework */; };
+		BC71FE28247ED17000AC8B9B /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE22247ED17000AC8B9B /* Sheep.wav */; };
+		BC71FE29247ED17000AC8B9B /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE22247ED17000AC8B9B /* Sheep.wav */; };
+		BC71FE2A247ED17000AC8B9B /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE22247ED17000AC8B9B /* Sheep.wav */; };
+		BC71FE2B247ED17000AC8B9B /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE23247ED17000AC8B9B /* Dog.wav */; };
+		BC71FE2C247ED17000AC8B9B /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE23247ED17000AC8B9B /* Dog.wav */; };
+		BC71FE2D247ED17000AC8B9B /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE23247ED17000AC8B9B /* Dog.wav */; };
+		BC71FE2E247ED17000AC8B9B /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE24247ED17000AC8B9B /* Pig.wav */; };
+		BC71FE2F247ED17000AC8B9B /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE24247ED17000AC8B9B /* Pig.wav */; };
+		BC71FE30247ED17000AC8B9B /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE24247ED17000AC8B9B /* Pig.wav */; };
+		BC71FE31247ED17000AC8B9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE25247ED17000AC8B9B /* Cat.wav */; };
+		BC71FE32247ED17000AC8B9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE25247ED17000AC8B9B /* Cat.wav */; };
+		BC71FE33247ED17000AC8B9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE25247ED17000AC8B9B /* Cat.wav */; };
+		BC71FE34247ED17000AC8B9B /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE26247ED17000AC8B9B /* Horse.mp3 */; };
+		BC71FE35247ED17000AC8B9B /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE26247ED17000AC8B9B /* Horse.mp3 */; };
+		BC71FE36247ED17000AC8B9B /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE26247ED17000AC8B9B /* Horse.mp3 */; };
+		BC71FE37247ED17000AC8B9B /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE27247ED17000AC8B9B /* Frog.wav */; };
+		BC71FE38247ED17000AC8B9B /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE27247ED17000AC8B9B /* Frog.wav */; };
+		BC71FE39247ED17000AC8B9B /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC71FE27247ED17000AC8B9B /* Frog.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +75,13 @@
 		BC71FE08247ECE8D00AC8B9B /* SoundPlayingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundPlayingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC71FE0C247ECE8D00AC8B9B /* SoundPlayingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundPlayingAppUITests.m; sourceTree = "<group>"; };
 		BC71FE0E247ECE8D00AC8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC71FE1F247ECF5F00AC8B9B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC71FE22247ED17000AC8B9B /* Sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sheep.wav; sourceTree = "<group>"; };
+		BC71FE23247ED17000AC8B9B /* Dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dog.wav; sourceTree = "<group>"; };
+		BC71FE24247ED17000AC8B9B /* Pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pig.wav; sourceTree = "<group>"; };
+		BC71FE25247ED17000AC8B9B /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		BC71FE26247ED17000AC8B9B /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horse.mp3; sourceTree = "<group>"; };
+		BC71FE27247ED17000AC8B9B /* Frog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Frog.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FE20247ECF5F00AC8B9B /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +117,7 @@
 				BC71FE00247ECE8D00AC8B9B /* SoundPlayingAppTests */,
 				BC71FE0B247ECE8D00AC8B9B /* SoundPlayingAppUITests */,
 				BC71FDE0247ECE8B00AC8B9B /* Products */,
+				BC71FE1E247ECF5F00AC8B9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +134,7 @@
 		BC71FDE1247ECE8B00AC8B9B /* SoundPlayingApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC71FE21247ED17000AC8B9B /* sounds */,
 				BC71FDE2247ECE8B00AC8B9B /* AppDelegate.h */,
 				BC71FDE3247ECE8B00AC8B9B /* AppDelegate.m */,
 				BC71FDE5247ECE8B00AC8B9B /* SceneDelegate.h */,
@@ -138,6 +167,27 @@
 				BC71FE0E247ECE8D00AC8B9B /* Info.plist */,
 			);
 			path = SoundPlayingAppUITests;
+			sourceTree = "<group>";
+		};
+		BC71FE1E247ECF5F00AC8B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FE1F247ECF5F00AC8B9B /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC71FE21247ED17000AC8B9B /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FE22247ED17000AC8B9B /* Sheep.wav */,
+				BC71FE23247ED17000AC8B9B /* Dog.wav */,
+				BC71FE24247ED17000AC8B9B /* Pig.wav */,
+				BC71FE25247ED17000AC8B9B /* Cat.wav */,
+				BC71FE26247ED17000AC8B9B /* Horse.mp3 */,
+				BC71FE27247ED17000AC8B9B /* Frog.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +293,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FE34247ED17000AC8B9B /* Horse.mp3 in Resources */,
 				BC71FDF5247ECE8D00AC8B9B /* LaunchScreen.storyboard in Resources */,
 				BC71FDF2247ECE8D00AC8B9B /* Assets.xcassets in Resources */,
+				BC71FE2B247ED17000AC8B9B /* Dog.wav in Resources */,
+				BC71FE37247ED17000AC8B9B /* Frog.wav in Resources */,
+				BC71FE2E247ED17000AC8B9B /* Pig.wav in Resources */,
+				BC71FE31247ED17000AC8B9B /* Cat.wav in Resources */,
+				BC71FE28247ED17000AC8B9B /* Sheep.wav in Resources */,
 				BC71FDED247ECE8B00AC8B9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +309,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FE2F247ED17000AC8B9B /* Pig.wav in Resources */,
+				BC71FE29247ED17000AC8B9B /* Sheep.wav in Resources */,
+				BC71FE2C247ED17000AC8B9B /* Dog.wav in Resources */,
+				BC71FE32247ED17000AC8B9B /* Cat.wav in Resources */,
+				BC71FE38247ED17000AC8B9B /* Frog.wav in Resources */,
+				BC71FE35247ED17000AC8B9B /* Horse.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC71FE30247ED17000AC8B9B /* Pig.wav in Resources */,
+				BC71FE2A247ED17000AC8B9B /* Sheep.wav in Resources */,
+				BC71FE2D247ED17000AC8B9B /* Dog.wav in Resources */,
+				BC71FE33247ED17000AC8B9B /* Cat.wav in Resources */,
+				BC71FE39247ED17000AC8B9B /* Frog.wav in Resources */,
+				BC71FE36247ED17000AC8B9B /* Horse.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

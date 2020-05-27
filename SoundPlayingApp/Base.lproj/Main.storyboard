@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,118 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="9L3-kb-xVn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="z8O-iK-fk8">
+                                <rect key="frame" x="16" y="64" width="343" height="694"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="UGx-eT-xkA">
+                                        <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="694"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akf-OZ-WhS">
+                                                <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="211.33333333333334"/>
+                                                <state key="normal" title="Button" image="Cat">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="catSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XtN-iQ-wcd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgA-P9-2mt">
+                                                <rect key="frame" x="0.0" y="241.33333333333331" width="156.66666666666666" height="211.33333333333331"/>
+                                                <state key="normal" title="Button" image="Frog">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="frogSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xTs-hF-GRO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztL-1v-kcH">
+                                                <rect key="frame" x="0.0" y="482.66666666666657" width="156.66666666666666" height="211.33333333333331"/>
+                                                <state key="normal" title="Button" image="Pig">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="pigSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0SQ-E9-VjK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="flg-Mi-yjX">
+                                        <rect key="frame" x="186.66666666666663" y="0.0" width="156.33333333333337" height="694"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHZ-l7-Hoa">
+                                                <rect key="frame" x="0.0" y="0.0" width="156.33333333333334" height="211.33333333333334"/>
+                                                <state key="normal" title="Button" image="Dog">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dogSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0sW-tq-ajx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yr1-Mt-Rc4">
+                                                <rect key="frame" x="0.0" y="241.33333333333331" width="156.33333333333334" height="211.33333333333331"/>
+                                                <state key="normal" title="Button" image="Horse">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="horseSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z6O-q0-XyA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdC-J7-vN2">
+                                                <rect key="frame" x="0.0" y="482.66666666666657" width="156.33333333333334" height="211.33333333333331"/>
+                                                <state key="normal" title="Button" image="Sheep">
+                                                    <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sheepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vue-fW-Pib"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9L3-kb-xVn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7z8-5B-lSV"/>
+                            <constraint firstAttribute="bottom" secondItem="9L3-kb-xVn" secondAttribute="bottom" id="OEF-OR-44B"/>
+                            <constraint firstItem="9L3-kb-xVn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RIN-dg-rYn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z8O-iK-fk8" secondAttribute="bottom" constant="20" id="bgj-02-iNB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z8O-iK-fk8" secondAttribute="trailing" constant="16" id="eQy-FQ-EsT"/>
+                            <constraint firstItem="z8O-iK-fk8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wii-VZ-z7t"/>
+                            <constraint firstItem="9L3-kb-xVn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xrI-LF-qXN"/>
+                            <constraint firstItem="z8O-iK-fk8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zQt-zU-Aua"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="catButton" destination="Akf-OZ-WhS" id="UUu-Xc-oKR"/>
+                        <outlet property="dogButton" destination="LHZ-l7-Hoa" id="iBZ-dP-GeM"/>
+                        <outlet property="frogButton" destination="vgA-P9-2mt" id="mE7-Qj-ans"/>
+                        <outlet property="horseButton" destination="Yr1-Mt-Rc4" id="qY7-jz-bzn"/>
+                        <outlet property="pigButton" destination="ztL-1v-kcH" id="xHU-fs-Tjc"/>
+                        <outlet property="sheepButton" destination="tdC-J7-vN2" id="lLI-1S-Ysh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="114.50892857142857"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="1920" height="1200"/>
+        <image name="Cat" width="507" height="800"/>
+        <image name="Dog" width="555" height="744"/>
+        <image name="Frog" width="794" height="900"/>
+        <image name="Horse" width="510" height="594"/>
+        <image name="Pig" width="667" height="745"/>
+        <image name="Sheep" width="576" height="600"/>
+    </resources>
 </document>
